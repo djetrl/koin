@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Koin</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="%" type="image/x-icon">
+  </head>
+  <body>
+    <!-- header
+    ====================== -->
+    <header class="header">
+      
+        <nav class="nav">
+          <div class="container">
+            <div class="nav_inner">
+                <div class="site_logo">
+                  <img src="img/nav/logo.png" alt="Kion">
+                </div>
+
+
+                <div class="nav_menu">
+                  <div class="nav_menu_item"><a href=""> Product</a></div>
+                  <div class="nav_menu_item"><a href=""> Resources</a></div>
+                  <div class="nav_menu_item"><a href=""> Support</a></div>
+                  <div class="nav_menu_item"><a href=""> About</a></div>
+                </div>
+
+
+                <div class="nav_button">
+                  <div class="search_button">
+                    <input type="search">
+                    <button onclick='activ_btn_search()' > <img src="img/nav/search_icon.png" alt="search"></button>
+                  </div>
+                  <button class="btn">Schedule Demo</button>
+                </div>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+
+
+
+
+
+      <script src="jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="app.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+    <script>
+    SmoothScroll({
+    // Время скролла 400 = 0.4 секунды
+    animationTime : 800,
+    // Размер шага в пикселях
+    stepSize : 75,
+
+    // Дополнительные настройки:
+
+    // Ускорение
+    accelerationDelta : 30,
+    // Максимальное ускорение
+    accelerationMax : 2,
+
+    // Поддержка клавиатуры
+    keyboardSupport : true,
+    // Шаг скролла стрелками на клавиатуре в пикселях
+    arrowScroll : 50,
+
+    // Pulse (less tweakable)
+    // ratio of "tail" to "acceleration"
+    pulseAlgorithm : true,
+    pulseScale : 4,
+    pulseNormalize : 1,
+
+    // Поддержка тачпада
+    touchpadSupport : true,
+    })
+    </script>
+  </body>
+</html>
