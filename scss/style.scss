@@ -4,7 +4,7 @@ body{
   font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
-	background-color: #d7aa2b;
+	background-color: #E4E4E4;
   
 }
 *,
@@ -16,5 +16,48 @@ body{
 .container{
   max-width:1440px;
   margin: auto;
+  
+}
+.btn{
+  width: 177px;
+  height: 56px;
+  border-radius: 40px;
+
+  color: #ffff;
+  background-color: #283337;
+  cursor: pointer;
+
+  font-size: 17px;
+  line-height: 21px;
+
+  transition: all .4s ease;
+
+  &:hover{
+    background-color: #000000;
+    color: #c005a7;
+  }
+}
+.btn-medium{
+  width: 218px;
+  height: 56px;
+  border-radius: 40px;
+
+  color: #ffff;
+  background-color: #283337;
+  cursor: pointer;
+
+  font-size: 17px;
+  line-height: 21px;
+}
+@keyframes print_link{
+  0%{
+    width: 10ch;
+  }
+  35%{width: 11ch;}
+  70%{width: 12ch;}
+  100%{width: 13ch;}
 }
 @import "_header.scss";
+@import "_intro.scss";
+@import "_TheProduct.scss";
+// @import "_";
