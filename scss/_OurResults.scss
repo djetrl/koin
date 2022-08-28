@@ -1,0 +1,91 @@
+.OurResults {
+
+
+.OurResults_title {
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1em;
+  margin-top: 220px;
+  text-align: center;
+  letter-spacing: 1px;
+
+  color: #283337;
+}
+.OurResults_group {
+  display: flex;
+}
+.OurResults_item {
+  width: 33.33333%;
+}
+.OurResults_item_title {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.34em;
+  margin: 76px 0 19px 0;
+
+  text-align: center;
+
+  color: #283337;
+
+}
+.OurResults_item_subtitle {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
+  padding: 0 120px 140px 120px;
+
+  text-align: center;
+
+  color: #40494D;
+}
+
+}
+
+@media screen and (max-width:1024px) {
+  .OurResults {
+    .OurResults_title {
+      margin-top: 17vw;
+    }
+    .OurResults_item_subtitle {
+      padding: 0 6vw 9vw 7vw;
+    }
+}
+}
+
+@media screen and (max-width:768px) {
+  .OurResults {
+    .OurResults_title {
+      margin-top: 19vw;
+      font-size: 8vw;
+    }
+    .OurResults_group {
+    }
+    .OurResults_item {
+    }
+    .OurResults_item_title {
+      font-size: 8vw;
+    }
+    .OurResults_item_subtitle {
+      padding: 0 6vw 12vw 7vw;
+      font-size: 2vw;
+    }
+}
+
+}
+@media screen and (max-width:320px) {
+  .OurResults {
+    .OurResults_title {
+      margin-top: 25vw;
+    }
+    .OurResults_item_subtitle {
+      padding: 0 6vw 25vw 7vw;
+    }
+}
+
+}

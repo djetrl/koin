@@ -1,0 +1,157 @@
+.Difference {
+    background-color: #ffff;
+    .Difference_inner {
+      display: flex;
+      padding: 0 80px;
+    }
+    .Difference_item {
+      width: 50%;
+      margin-top: 422px;
+    }
+    .Difference_title {
+      font-family: 'Times New Roman';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 60px;
+      line-height: 1em;
+
+      letter-spacing: 1px;
+
+      padding-bottom: 43px;
+    
+
+      margin-right: 320px;
+    }
+    .Difference_subtitle {
+      margin-right: 219px;
+
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 144%;
+      color: #40494D;
+
+    }
+    
+    .ourDifferences {
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 127%;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      dt{
+        padding: 24px 0;
+      }
+      dd{
+        padding-left: 30px;
+        padding-bottom: 12px;
+      }
+    }
+    .Learn_More {
+      padding-top: 12px;
+      
+    }
+    .Difference_video {
+      width: 640px;
+      height: 360px;
+
+      padding: 81px 0;
+    }
+
+}
+
+
+@media screen and (max-width:1024px) {
+  .Difference {
+
+    .Difference_inner {
+      padding: 0 40px;
+    }
+    .Difference_item {
+      margin-top: 20vw;
+      &:nth-child(1){
+        width: 40%;
+        height: 60%;
+      }
+    }
+    .Difference_title {
+      font-size: 5vw;
+      margin-right: 10vw;
+    }
+    .Difference_subtitle {
+      margin-right: 13vw;  
+      font-size: 1.7vw;
+    }
+    .ourDifferences {
+      font-size: 1.2vw;
+      dt{
+        padding: 2em 0;
+      }
+      dd{
+        padding-bottom: 1.5em;
+      }
+    }
+    .Learn_More {
+      font-size: 1.8vw;
+      padding-top: 1.5em;
+    }
+    .Difference_video {
+          width: 50vw;
+           height: 25vw;
+    }
+  }
+}
+@media screen and (max-width:320px) {
+  .Difference {
+    
+    .Difference_inner {
+      display: block;
+      padding: 0;
+    }
+    .Difference_item {
+      text-align: center;
+      width: 100%;
+      &:nth-child(1){
+        width: 100%;
+        
+      }
+      &:nth-child(2){
+        margin-top: 0;
+        width: 100%;
+      }
+    }
+    .Difference_title {
+      padding-bottom: 7vw;
+      padding-top: 7vw;
+      margin-right: 0;
+    }
+    .Difference_subtitle {
+      font-size: 3vw;
+      margin-right: 0;
+      padding: 0 40px;
+    }
+    .ourDifferences {
+      font-size: 1.8vw;
+      dt{
+        padding: 3em 0;
+        font-size: 2vw;
+        font-weight: bold;
+      }
+
+      dd{
+        padding:0 0 1em 0;
+      }
+    }
+    .Learn_More {
+    }
+    .Difference_video {
+      padding: 20px 0;
+      width: 300px;
+      height: auto;
+      margin: auto;
+    }
+  }
+}

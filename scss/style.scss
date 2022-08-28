@@ -49,15 +49,26 @@ body{
   font-size: 17px;
   line-height: 21px;
 }
-@keyframes print_link{
-  0%{
-    width: 10ch;
+
+.Learn_More {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.444em;
+  
+
+  a{
+    text-decoration: none;
+    color: #283337;
+    transition: all 0.2s ease;
+    &:hover{
+      color: #61D7AC;
+    }
   }
-  35%{width: 11ch;}
-  70%{width: 12ch;}
-  100%{width: 13ch;}
 }
 @import "_header.scss";
 @import "_intro.scss";
 @import "_TheProduct.scss";
-// @import "_";
+@import "_OurResults.scss";
+@import "_Difference.scss";
