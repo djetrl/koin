@@ -22,6 +22,7 @@ body {
   width: 177px;
   height: 56px;
   border-radius: 40px;
+  border: 0;
   color: white;
   background-color: #283337;
   cursor: pointer;
@@ -758,8 +759,8 @@ body {
   padding-top: 12px;
 }
 .Difference .Difference_video {
-  width: 640px;
-  height: 360px;
+  width: 550px;
+  height: auto;
   padding: 81px 0;
 }
 
@@ -797,10 +798,10 @@ body {
   }
   .Difference .Difference_video {
     width: 50vw;
-    height: 25vw;
+    height: auto;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .Difference .Difference_inner {
     display: block;
     padding: 0;
@@ -839,8 +840,188 @@ body {
   }
   .Difference .Difference_video {
     padding: 20px 0;
-    width: 300px;
+    width: 75vw;
     height: auto;
     margin: auto;
   }
+}
+.BuiltFor {
+  background-color: #fff;
+}
+.BuiltFor .BuiltFor_group:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+}
+.BuiltFor .BuiltFor_title {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 103%;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #283337;
+  padding-top: 40px;
+}
+.BuiltFor .BuiltFor_item {
+  padding: 86px 0 150px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .BuiltFor .BuiltFor_title {
+    font-size: 7vw;
+    color: #283337;
+    padding-top: 7vw;
+  }
+  .BuiltFor .BuiltFor_item {
+    width: auto;
+    height: 12vw;
+    padding: 10vw 0 15vw 0;
+  }
+}
+.RequestDemo .RequestDemo_inner {
+  text-align: center;
+  padding: 150px 260px;
+}
+.RequestDemo .RequestDemo_title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  color: #283337;
+}
+.RequestDemo .RequestDemo_subtitle {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 109%;
+  color: #283337;
+  padding: 48px 0;
+}
+@media screen and (max-width: 1024px) {
+  .RequestDemo .RequestDemo_inner {
+    padding: 11vw 20vw;
+  }
+  .RequestDemo .RequestDemo_title {
+    font-size: 5vw;
+  }
+  .RequestDemo .RequestDemo_subtitle {
+    font-size: 2.7vw;
+    padding: 4vw 0;
+  }
+  .RequestDemo .btn {
+    width: 16vw;
+    height: 5vw;
+    font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .RequestDemo .RequestDemo_inner {
+    padding: 14vw 14vw;
+  }
+  .RequestDemo .RequestDemo_title {
+    font-size: 6vw;
+  }
+  .RequestDemo .RequestDemo_subtitle {
+    font-size: 3;
+    padding: 4vw 0;
+  }
+  .RequestDemo .btn {
+    width: 18vw;
+    height: 6vw;
+    font-size: 2vw;
+    line-height: 50%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .RequestDemo .RequestDemo_inner {
+    padding: 20vw 14vw;
+  }
+  .RequestDemo .RequestDemo_title {
+    font-size: 6vw;
+  }
+  .RequestDemo .RequestDemo_subtitle {
+    font-size: 3.5vw;
+    padding: 4vw 0;
+  }
+  .RequestDemo .btn {
+    width: 18vw;
+    height: 6vw;
+    font-size: 2.1vw;
+  }
+}
+.footer {
+  background-color: #101C21;
+  color: white;
+  padding: 0 80px;
+}
+.footer .footer_inner {
+  display: flex;
+}
+.footer .footer_group:nth-child(1) {
+  width: 40%;
+}
+.footer .footer_group:nth-child(1) .footer_column:nth-child(2) {
+  padding: 0 0 30px 0;
+}
+.footer .footer_group:nth-child(2) {
+  width: 60%;
+}
+.footer .footer_column {
+  padding: 100px 0 30px 0;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+.footer .footer_column dt {
+  color: #878D90;
+  padding-bottom: 16px;
+}
+.footer .footer_column dd {
+  padding-bottom: 8px;
+}
+.footer .footer_column dd a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease;
+}
+.footer .footer_column dd a:hover {
+  opacity: 0.8;
+}
+.footer .footer_item:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer_title {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+}
+.footer .footer_input input {
+  width: 460px;
+  padding: 15px 10px;
+  border-radius: 6px;
+  margin: 32px 10px 0 0;
+}
+.footer .footer_input .btn {
+  width: 160px;
+}
+.footer .footer_group_row {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0 20px 0;
+}
+.footer .footer_social img {
+  margin-right: 20px;
+}
+.footer .footer_row {
+  display: inherit;
+}
+.footer .footer_row:nth-child(2) p {
+  margin-right: 20px;
 }

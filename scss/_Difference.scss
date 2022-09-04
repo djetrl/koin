@@ -55,8 +55,8 @@
       
     }
     .Difference_video {
-      width: 640px;
-      height: 360px;
+      width: 550px;
+      height: auto;
 
       padding: 81px 0;
     }
@@ -100,11 +100,11 @@
     }
     .Difference_video {
           width: 50vw;
-           height: 25vw;
+           height: auto;
     }
   }
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:768px) {
   .Difference {
     
     .Difference_inner {
@@ -149,7 +149,7 @@
     }
     .Difference_video {
       padding: 20px 0;
-      width: 300px;
+      width: 75vw;
       height: auto;
       margin: auto;
     }

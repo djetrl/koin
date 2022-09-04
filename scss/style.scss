@@ -23,6 +23,8 @@ body{
   height: 56px;
   border-radius: 40px;
 
+  border: 0;
+
   color: #ffff;
   background-color: #283337;
   cursor: pointer;
@@ -72,3 +74,6 @@ body{
 @import "_TheProduct.scss";
 @import "_OurResults.scss";
 @import "_Difference.scss";
+@import "_BuiltFor.scss";
+@import "_RequestDemo.scss";
+@import "_footer.scss";

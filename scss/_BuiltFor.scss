@@ -1,0 +1,47 @@
+.BuiltFor {
+  background-color: #fff;
+.BuiltFor_group {
+  &:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.BuiltFor_title{
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 103%;
+  text-align: center;
+  letter-spacing: 1px;
+
+
+  color: #283337;
+
+  padding-top: 40px;
+}
+.BuiltFor_item {
+  padding: 86px 0 150px 0;
+}
+  
+}
+
+
+@media screen and (max-width:768px) {
+  .BuiltFor {
+   
+
+  .BuiltFor_title{
+    font-size: 7vw;
+    color: #283337;
+    padding-top: 7vw;
+  }
+  .BuiltFor_item {
+    width: auto;
+    height: 12vw;
+    padding: 10vw 0 15vw 0;
+  }
+    
+  }
+
+}

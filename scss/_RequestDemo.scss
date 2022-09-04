@@ -1,0 +1,90 @@
+.RequestDemo {
+
+
+  .RequestDemo_inner {
+    text-align: center;
+    padding: 150px 260px;
+  }
+  .RequestDemo_title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 1px;
+
+    color: #283337;
+
+  }
+  .RequestDemo_subtitle {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 109%;
+    color: #283337;
+    padding: 48px 0;
+  }
+  .btn {
+  }
+
+}
+@media screen and (max-width:1024px) {
+  .RequestDemo {
+
+    .RequestDemo_inner {
+      padding: 11vw 20vw;
+    }
+    .RequestDemo_title {
+      font-size: 5vw;
+    }
+    .RequestDemo_subtitle {
+      font-size: 2.7vw;
+      padding: 4vw 0;
+    }
+    .btn {
+      width: 16vw;
+      height: 5vw;
+      font-size: 1.5vw;
+    }
+  }
+}
+@media screen and (max-width:768px) {
+  .RequestDemo {
+
+    .RequestDemo_inner {
+      padding: 14vw 14vw;
+    }
+    .RequestDemo_title {
+      font-size: 6vw;
+    }
+    .RequestDemo_subtitle {
+      font-size: 3;
+      padding: 4vw 0;
+    }
+    .btn {
+      width: 18vw;
+      height: 6vw;
+      font-size: 2vw;
+      line-height: 50%;
+    }
+  }
+}
+@media screen and (max-width:320px) {
+  .RequestDemo {
+
+    .RequestDemo_inner {
+      padding: 20vw 14vw;
+    }
+    .RequestDemo_title {
+      font-size: 6vw;
+    }
+    .RequestDemo_subtitle {
+      font-size: 3.5vw;
+      padding: 4vw 0;
+    }
+    .btn {
+      width: 18vw;
+      height: 6vw;
+      font-size: 2.1vw;
+    }
+  }
+}
