@@ -69,6 +69,11 @@ body{
     }
   }
 }
+
+.not-active {
+  pointer-events: none;
+  cursor: default;
+}
 @import "_header.scss";
 @import "_intro.scss";
 @import "_TheProduct.scss";
