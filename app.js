@@ -16,7 +16,7 @@
   });
 
 
-let  btnBurger = document.querySelector('.burger')
+let  btnBurger = document.querySelector('.burger');
 
 function addburgerbtn(){
   if ( btnBurger.clientWidth <= 448 ) {
@@ -24,7 +24,7 @@ function addburgerbtn(){
 } else{
   $('.burger-main .btn').removeClass('btn-retract');
 }
-};
+}
 window.onload = function()
 {
 
@@ -38,7 +38,7 @@ window.onload = function()
 
 
 addburgerbtn();
-}
+};
 
 $(window).on("scroll resize", function() {
   addburgerbtn();
@@ -49,8 +49,8 @@ $(window).on("scroll resize", function() {
     let target = $(this).data('block');
     $('html, body').animate({
       scrollTop:$(target).offset().top
-    },700)
-  })
+    },700);
+  });
 
 
 
