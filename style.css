@@ -362,6 +362,9 @@ body {
 .burger .burger-main .nav_menu .nav_menu_item:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
+.burger .burger-main .nav_menu .nav_menu_item:hover ul {
+  transform: scaleY(0);
+}
 .burger .burger-main .nav_menu .nav_menu_item a {
   font-size: 3vw;
   display: block;
