@@ -247,7 +247,7 @@
 
 
 .burger-main{
-  transform: scaleY(0%);
+  transform: scaleY(0);
   transform-origin: top center;
   background-color: rgb(255, 255, 255);
   .nav_button {
@@ -429,7 +429,7 @@
 }
 
 }
-.active-burger{
+.burger.active-burger{
   height: auto;
   .burger-header{
     cursor: pointer;
@@ -451,7 +451,7 @@
 
   }
   .burger-main{
-    transform: scaleY(100%);
+    transform: scaleY(1);
     transition:  0.7s ease;
     .inpute_search {
       opacity: 1;
